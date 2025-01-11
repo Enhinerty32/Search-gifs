@@ -1,8 +1,19 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Es una aplicación de React que permite a los usuarios buscar y visualizar GIFs animados. Los usuarios pueden agregar nuevas categorías de búsqueda y ver los GIFs correspondientes en tiempo real.
 
-Currently, two official plugins are available:
+Características
+Búsqueda de GIFs: Permite a los usuarios buscar GIFs animados por categorías.
+Añadir Categorías: Los usuarios pueden agregar nuevas categorías de búsqueda.
+Visualización Dinámica: Los GIFs se muestran en una cuadrícula y se actualizan automáticamente según la categoría seleccionada.
+Tecnologías Utilizadas
+React: Biblioteca de JavaScript para construir interfaces de usuario.
+Giphy API: API utilizada para obtener los GIFs animados.
+Estructura del Proyecto
+components: Contiene los componentes principales como AddCategory y GifGrid.
+hooks: Contiene hooks personalizados como useFetchGifs para manejar la lógica de obtención de datos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+¡Explora y disfruta buscando tus GIFs favoritos con GifExpertApp!
